@@ -1,6 +1,8 @@
 * {
   box-sizing: border-box;
 }
+
+
 ul {
   list-style: none;
   margin: 0px;
@@ -11,9 +13,11 @@ header {
   background-color: #588DA5;
   margin-top: 0px;
   padding: 10px;
+  box-shadow: 1px 1px 5px 1px black;
 }
 header h1 {
   margin: 0px;
+  font-family: 'Libre Franklin', sans-serif;
 }
 nav {
   position: fixed;
@@ -23,12 +27,20 @@ nav {
   width: 15vw;
   background-color: #588DA5;
 }
-nav li {
+.navtext {
+  padding-top: 12vh;
+  color: black;
+}
+a {
   display: flex;
   justify-content: center;
-  padding-top: 12vh;
+  padding-top: 0vh;
   text-decoration: none;
+  font-family: 'Libre Franklin', sans-serif;
   font-size: 17px;
   height: 25vh;
   width: 15vw;
+  border-radius: 3px;
+  box-shadow: 1px 1px 5px 1px black;
 }
+
