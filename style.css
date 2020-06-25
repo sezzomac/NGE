@@ -1,21 +1,19 @@
 * {
   box-sizing: border-box;
 }
-body {
-  background: #000000 url(https://images.pexels.com/photos/427679/pexels-photo-427679.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) 50% 100% ;
-}
-
-ul {
-  list-style: none;
-  margin: 0px;
-  padding: 0px;
+#backG {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
 } 
-header {
-  width: 15vw;
+#headerImg {
+  width: 18vw;
   height: 22vh;
 }
-h1 {
-  text-align: center;
+#logoImg {
+  max-width: 100%;
+  max-height: 100%;
 }
 nav {
   position: fixed;
@@ -23,7 +21,8 @@ nav {
   flex-direction: column;
   height: 100vh;
   width: 18vw;
-  background-color: #588DA5;
+  background-color: #7fcec5;
+  background-image: linear-gradient(315deg, #7fcec5 0%, #14557b 74%);
   opacity: 0.9;
 }
 .navtext {
@@ -39,11 +38,25 @@ a {
   width: 18vw;
   height: 7vh;
   border-radius: 3px;
-  box-shadow: 1px 1px 5px 1px black;
+  border: 1px solid #182932;
+  box-shadow: 1px 1px 5px 1px #182932;
+  background-color: #7fcec5;
+  background-image: linear-gradient(315deg, #7fcec5 0%, #14557b 74%);
+}
+.hoverover {
+  background-color: #b3cdd1;
+
 }
 .glyphicon {
-  margin-left: 0vw;
+  height: 7vh;
   padding: 2vh;
-  border: 1px solid black;
+  border: 1px solid #182932;
+  box-shadow: inset 0 0 7px 1px #083048;
+  margin-top: -2px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  margin: 0px 0px 10px 10px;
 }
 
