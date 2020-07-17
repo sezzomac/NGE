@@ -76,21 +76,18 @@ a {
   height: 90vh;
   margin-top: 5vh;
 }
-.snipHead {
-  text-align: center;
-  font-family: 'Libre Franklin', sans-serif;
-  width: 100%;
-}
-.snipP {
-  text-align: center;
-  font-family: 'Libre Franklin', sans-serif;
-  width: 100%;
-}
+
 .snipHead h1 {
+  text-align: center;
+  font-family: 'Libre Franklin', sans-serif;
+  width: 100%;
   opacity: 1;
   color: black;
 }
 .snipP p {
+  text-align: center;
+  font-family: 'Libre Franklin', sans-serif;
+  width: 100%;
   opacity: 1;
   color: black;
 }
