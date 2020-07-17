@@ -86,4 +86,12 @@ a {
   font-family: 'Libre Franklin', sans-serif;
   width: 100%;
 }
+.snipHead h1 {
+  opacity: 1;
+  color: black;
+}
+.snipP p {
+  opacity: 1;
+  color: black;
+}
 
