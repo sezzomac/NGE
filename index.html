@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>NGE Project</title>
     <link rel="stylesheet" href="style.css">
+    <script src="ajax.js"></script>
        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
@@ -15,7 +16,7 @@
 <body>
 		<nav>
       <a id="headerImg" href="#"><img id="logoImg" src="https://i.postimg.cc/XJfR2dHT/DarkLogo.png" alt="NGE logo"></a>
-			<a class="clickable hoverover" id="home" href="#" onclick="mainSnip()"><div class="navtext"><span class="glyphicon glyphicon-home"></span> Home</div></a>
+			<a class="clickable hoverover" id="home" href="#" onclick="getHome()"><div class="navtext"><span class="glyphicon glyphicon-home"></span> Home</div></a>
 			<a class="clickable hoverover" href="#"><div class="navtext"><span class="glyphicon glyphicon-search"></span> Projects</div></a>
 			<a class="clickable hoverover" href="#"><div class="navtext"><span class="glyphicon glyphicon-star-empty"></span> About Us</div></a>
 			<a class="clickable hoverover" href="#"><div class="navtext"><span class="glyphicon glyphicon-phone"></span> Contact</div></a>
@@ -25,7 +26,7 @@
       <p class="footer">Copyright NGE Ltd &copy;</p>
 		</nav>
 
-      <div id="main-content" class="maincontent"><iframe id="iframe"></iframe>
+      <div id="main-content" class="maincontent">
       </div>
       
     <script src="script.js"></script>
