@@ -79,9 +79,11 @@ a {
 .snipHead {
   text-align: center;
   font-family: 'Libre Franklin', sans-serif;
+  width: 100%;
 }
 .snipP {
   text-align: center;
   font-family: 'Libre Franklin', sans-serif;
+  width: 100%;
 }
 
