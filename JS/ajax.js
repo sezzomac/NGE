@@ -7,7 +7,7 @@ xhttp.onreadystatechange = function() {
 	}
 }
 
-xhttp.open("GET", "mainsnippet.html", true);
+xhttp.open("GET", "snippets/mainsnippet.html", true);
 xhttp.send();
 }
 
@@ -21,7 +21,7 @@ xhttp.onreadystatechange = function() {
 	}
 }
 
-xhttp.open("GET", "projects.html", true);
+xhttp.open("GET", "snippets/projects.html", true);
 xhttp.send();
 }
 
@@ -35,7 +35,7 @@ xhttp.onreadystatechange = function() {
 	}
 }
 
-xhttp.open("GET", "aboutus.html", true);
+xhttp.open("GET", "snippets/aboutus.html", true);
 xhttp.send();
 }
 
@@ -49,6 +49,6 @@ xhttp.onreadystatechange = function() {
 	}
 }
 
-xhttp.open("GET", "contact.html", true);
+xhttp.open("GET", "snippets/contact.html", true);
 xhttp.send();
 }
