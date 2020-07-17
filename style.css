@@ -76,7 +76,12 @@ a {
   height: 90vh;
   margin-top: 5vh;
 }
-iframe {
-  width: 100%;
+.snipHead {
+  text-align: center;
+  font-family: 'Libre Franklin', sans-serif;
+}
+.snipP {
+  text-align: center;
+  font-family: 'Libre Franklin', sans-serif;
 }
 
