@@ -4,31 +4,100 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>NGE Project</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Construction Project</title>
+    <link rel="stylesheet" href="css/style.css">
     <script src="JS/ajax.js"></script>
        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap" rel="stylesheet">
-   <img id="backG" src='https://i.postimg.cc/2SC4jtPM/cityview.jpg' alt='london-photo'/>
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
+
 		<nav>
-      <a id="headerImg" href="#"><img id="logoImg" src="https://i.postimg.cc/XJfR2dHT/DarkLogo.png" alt="NGE logo"></a>
-			<a class="clickable hoverover" id="home" href="#" onclick="getHome()"><div class="navtext"><span class="glyphicon glyphicon-home"></span> Home</div></a>
-			<a class="clickable hoverover" href="#" onclick="getProj()"><div class="navtext"><span class="glyphicon glyphicon-search"></span> Projects</div></a>
-			<a class="clickable hoverover" href="#" onclick="getAbout()"><div class="navtext"><span class="glyphicon glyphicon-star-empty"></span> About Us</div></a>
-			<a class="clickable hoverover" href="#" onclick="getContact()"><div class="navtext"><span class="glyphicon glyphicon-phone"></span> Contact</div></a>
-			<a class="clickable hoverover" href="#"><div class="navtext"><span class="glyphicon glyphicon-phone"></span> Contact</div></a>
-      <a class="clickable hoverover" href="#"><div class="navtext"><span class="glyphicon glyphicon-phone"></span> Contact</div></a>
-      <a class="clickable hoverover" href="#"><div class="navtext"><span class="glyphicon glyphicon-phone"></span> Contact</div></a>
-      <p class="footer">Copyright NGE Ltd &copy;</p>
+      <a href="#" onclick="getHome()"></a>
+			
+
+			<div class="subnav">
+				<a href="#" onclick="getHome()">
+					<div class="navtext"></span> Home<span class="glyphicon glyphicon-home"></div>
+				</a>
+			</div>
+
+			<div class="subnav">
+				<a href="#" onclick="getAbout()">
+					<div class="navtext"> About Us<span class="glyphicon glyphicon-star-empty"></span></div>
+				</a>
+					<div class="subnavcont">
+						<a class="snc" href="#" onclick=""><div class="subnavtext"><span class="glyphicon glyphicon-chevron-right"></span> sub</div></a>
+						<a class="snc" href="#" onclick=""><div class="subnavtext"><span class="glyphicon glyphicon-chevron-right"></span> sub</div></a>
+						<a class="snc" href="#" onclick=""><div class="subnavtext"><span class="glyphicon glyphicon-chevron-right"></span> sub</div></a>
+						<a class="snc" href="#" onclick=""><div class="subnavtext"><span class="glyphicon glyphicon-chevron-right"></span> sub</div></a>
+					</div>
+			</div>
+
+      		<div class="subnav">
+      			<a href="#">
+      				<div class="navtext"> Why Us?<i class="glyphicon glyphicon-question-sign"></i></div>
+      			</a>
+      				<div class="subnavcont">
+      					<a class="snc" href="#" onclick=""><div class="subnavtext"><span class="glyphicon glyphicon-chevron-right"></span> sub</div></a>
+						<a class="snc" href="#" onclick=""><div class="subnavtext"><span class="glyphicon glyphicon-chevron-right"></span> sub</div></a>
+					</div>
+			</div>
+
+			<div class="subnav">
+				<a href="#" onclick="getProj()">
+					<div class="navtext">Projects<span class="glyphicon glyphicon-education"></span></div>
+				</a>
+					<div class="subnavcont">
+						<a class="snc" href="#" onclick=""><div class="subnavtext"><span class="glyphicon glyphicon-chevron-right"></span> sub</div></a>
+						<a class="snc" href="#" onclick=""><div class="subnavtext"><span class="glyphicon glyphicon-chevron-right"></span> sub</div></a>
+					</div>
+			</div>
+
+			<div class="subnav">
+				<a href="#">
+					<div class="navtext"> Work With Us<i class="glyphicon glyphicon-grain"></i></div>
+				</a>
+      				<div class="subnavcont">
+      					<a class="snc" href="#" onclick=""><div class="subnavtext"><span class="glyphicon glyphicon-chevron-right"></span> sub</div></a>
+						<a class="snc" href="#" onclick=""><div class="subnavtext"><span class="glyphicon glyphicon-chevron-right"></span> sub</div></a>
+					</div>
+			</div>
+
+			<div class="subnav">
+				<a href="#" onclick="getContact()">
+					<div class="navtext"> Contact<span class="glyphicon glyphicon-phone"></span></div>
+				</a>
+					<div class="subnavcont">
+						<a class="snc" href="#" onclick=""><div class="subnavtext"><span class="glyphicon glyphicon-chevron-right"></span> sub</div></a>
+						<a class="snc" href="#" onclick=""><div class="subnavtext"><span class="glyphicon glyphicon-chevron-right"></span> sub</div></a>
+						<a class="snc" href="#" onclick=""><div class="subnavtext"><span class="glyphicon glyphicon-chevron-right"></span> sub</div></a>
+						<a class="snc" href="#" onclick=""><div class="subnavtext"><span class="glyphicon glyphicon-chevron-right"></span> sub</div></a>
+						<a class="snc" href="#" onclick=""><div class="subnavtext"><span class="glyphicon glyphicon-chevron-right"></span> sub</div></a>
+					</div>
+			</div>
+
+      		<div class="subnav">
+      			<a href="#">
+      				<div class="navtext"> Careers<i class="glyphicon glyphicon-road"></i></div>
+      			</a>
+      				<div class="subnavcont">
+      					<a class="snc" href="#" onclick=""><div class="subnavtext"><span class="glyphicon glyphicon-chevron-right"></span> sub</div></a>
+						<a class="snc" href="#" onclick=""><div class="subnavtext"><span class="glyphicon glyphicon-chevron-right"></span> sub</div></a>
+					</div>
+			</div>
+			<div id="foot"><p class="footer"></p></div>
 		</nav>
 
-      <div id="main-content" class="maincontent">
+      <div id="main-content" class="maincontent"> 
+      	<h1 id="quote"><em></em> </h1>
+      	<p id="quotewho"></p>
       </div>
-      
+     
     <script src="JS/script.js"></script>
 </body>
 </html>

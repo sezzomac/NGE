@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  position: absolute;
+  background: url(colorbuilding.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: -1;
+} 
+#logoImg {
+ max-width: 180px;
+ border: 1px solid #1700FF;
+ background-color: #2718B9;
+ margin-bottom: 1px;
+
+}
+#logoImg:hover {
+  background-color: #5240FF;
+}
+nav {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 180px;
+  height: 100vh;
+  opacity: 0.9;
+   background-color: #2718B9;
+  z-index: 2;
+}
+.subnav {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 15px;
+  width: 210px;
+  height: 45px;
+  margin-top: -2px;
+  border: 1px solid #1700FF;
+  background-color: #121627;
+  overflow: hidden;
+}
+
+#foot {
+  overflow: hidden;
+  border-right: 1px solid #AF1500;
+}
+.subnavcont {
+  display: none;
+  position: absolute;
+  z-index: 3;
+}
+.navtext {
+  color: #B5F4FF;
+  text-align: right;
+}
+.subnavtext {
+  color: #B5F4FF;
+  border: 1px solid #1700FF;
+  padding-right: 10px;
+  text-align: right;
+  margin-bottom: -1px;
+  background-color: #ffffff;
+}
+
+/* Main nav hover Styling */
+.subnav a:hover {
+  text-decoration: none;
+  font-size: 16px;
+}
+.subnav:hover {
+  background-color: #ADBFD2;
+}
+/* Sub nav hover styling */
+.subnavtext:hover {
+background-color: #CFDDEA;
+}
+/*Sub nav display styling */
+.subnav:hover .subnavcont {
+  display: inline-block;
+  position: absolute;
+  margin-left: 180px;
+  margin-top: -10px;
+  width: 100px;
+  text-decoration: none;
+}
+.glyphicon {
+  height: 45px;
+  padding: 15px;
+  margin-top: -2px;
+}
+.glyphicon-chevron-right {
+  height: 15px;
+  padding: 5px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  padding-left: 5px;
+}
+.maincontent {
+  background-color: #050E1F;
+  opacity: 0.9;
+  width: 75vw;
+  height: 96vh;
+  position: absolute;
+  margin-left: 20vw;
+  margin-right: 5vw;
+  margin-top: 4vh;
+  z-index: 1;
+  box-shadow: 1px 2px 5px 1px #021C29;
+}
+.maincontent #quote {
+  opacity:1;
+  color: #F6D28A;
+  margin-top: 35vh;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+}
+.maincontent #quotewho {
+  opacity:1;
+  color: #F6D28A;
+  margin-top: 5vh;
+  text-align: center;
+}
+.snipHead h1 {
+  text-align: center;
+  font-family: 'Rajdhani', sans-serif;
+  width: 100%;
+  opacity: 1;
+  color: black;
+}
+.snipP p {
+  text-align: center;
+  font-family: 'Rajdhani', sans-serif;
+  width: 100%;
+  opacity: 1;
+  color: black;
+}
+
